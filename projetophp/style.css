@@ -1,9 +1,16 @@
 .container{
-    width: 70%;
+   width: 70%;
 }
 
 .fundo{
 
 background-color: #007bff;
 
+}
+.formulario{
+
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+ 
 }

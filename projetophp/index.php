@@ -31,9 +31,8 @@
             </div>
         </div>
     </nav>
-</div>
-<div class="container">
-
+<form>
+    <div class="formulario">
                 <legend>Cadastrar - Agendamento de Potencias Clientes</legend>
                 <p>Sistema utilizado para agendamento de serviços.</p>
                 <div class="mb-3">
@@ -62,7 +61,8 @@
                 <div class="mb-3">
                     <input class="btn btn-primary" type="submit" value="Cadastrar">
                 </div>
-
+    </div>            
+</form>
 </div>
 
 </body>
