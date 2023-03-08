@@ -12,17 +12,17 @@
 </head>
 <body>
 
-<div class="container">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary, fundo">
+<div class="container data-bs-theme="blue">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary,  fundo">
         <div class="container-fluid">
-            <a class="navbar-brand , text-light" id="principaltxt" href="#">SISTEMA WEB</a>
+            <a class="navbar-brand" href="#">SISTEMA WEB</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                <a class="nav-link active , text-light" aria-current="page" href="#">Cadastrar</a>
+                <a class="nav-link active" aria-current="page" href="#">Cadastrar</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="#">Consultar</a>

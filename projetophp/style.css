@@ -1,6 +1,9 @@
 .container{
    width: 70%;
 }
+a{
+    color: #ffffff !important;
+}
 
 .fundo{
 
@@ -14,3 +17,4 @@ background-color: #007bff;
     margin-right: 2%;
  
 }
+
