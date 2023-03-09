@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<div class="container data-bs-theme="blue">
+<div class="container" id="fprinci">
     <nav class="navbar navbar-expand-lg bg-body-tertiary,  fundo">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">SISTEMA WEB</a>
@@ -33,7 +33,7 @@
     </nav>
 <form>
     <div class="formulario">
-                <legend>Cadastrar - Agendamento de Potencias Clientes</legend>
+                <h2>Cadastrar - Agendamento de Potencias Clientes</h2>
                 <p>Sistema utilizado para agendamento de serviços.</p>
                 <div class="mb-3">
                     <label for="nome" class="form-label">Nome:</label>

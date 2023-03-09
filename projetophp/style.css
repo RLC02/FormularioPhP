@@ -1,6 +1,14 @@
 .container{
-   width: 70%;
+   width: 90%;
 }
+body{
+    background-color: #cccccc;
+}
+#fprinci{
+    background-color: white;
+    padding: 0%;
+}
+
 a{
     color: #ffffff !important;
 }
@@ -12,9 +20,10 @@ background-color: #007bff;
 }
 .formulario{
 
-    margin-top: 2%;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin: 2%;
+    padding-bottom: 1%;
  
 }
+
+
 
