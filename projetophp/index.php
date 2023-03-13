@@ -13,7 +13,7 @@
 <body>
 
 <div class="container" id="fprinci">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary,  fundo">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary, fundo" data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">SISTEMA WEB</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,38 +31,38 @@
             </div>
         </div>
     </nav>
-<form>
     <div class="formulario">
+    <form  method="POST" action="dados.class.php">
                 <h2>Cadastrar - Agendamento de Potencias Clientes</h2>
                 <p>Sistema utilizado para agendamento de serviços.</p>
                 <div class="mb-3">
                     <label for="nome" class="form-label">Nome:</label>
-                    <input type="text" class="form-control" id="nome">
+                    <input type="text" class="form-control" name="nome" id="nome">
                 </div>
                 <div class="mb-3">
                     <label for="tele" class="form-label">Telefone:</label>
-                    <input type="tel" class="form-control" id="tele" placeholder="(xx)xxxxx-xxxx">
+                    <input type="tel" class="form-control" name="telefone" id="telefone" placeholder="(xx)xxxxx-xxxx">
                 </div>
                 <div class="mb-3">
                 <label for="select" class="form-label">Origem:</label>
-                <select class="form-select" aria-label="select">
+                <select class="form-select" aria-label="select" name="origem" id="origem">
                     <option value="1">Celular</option>
                     <option value="2">Fixo</option>
                 </select>
                 </div>
                 <div class="mb-3">
                     <label for="data" class="form-label">Data do Contato: </label>
-                    <input type="date" class="form-control" id="data" >
+                    <input type="date" class="form-control" id="data" name="data">
                 </div>
                 <div class="mb-3">
                     <label for="obs" class="form-label">Obeservação</label>
-                    <textarea class="form-control" id="obs" rows="3"></textarea>
+                    <textarea class="form-control" id="obs" name="obs" rows="3"></textarea>
                 </div>
                 <div class="mb-3">
-                    <input class="btn btn-primary" type="submit" value="Cadastrar">
+                    <input  class="btn btn-primary" type="submit" name="Cadastrar" value="Cadastrar">
                 </div>
+    </form>        
     </div>            
-</form>
 </div>
 
 </body>
