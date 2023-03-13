@@ -46,8 +46,8 @@
                 <div class="mb-3">
                 <label for="select" class="form-label">Origem:</label>
                 <select class="form-select" aria-label="select" name="origem" id="origem">
-                    <option value="1">Celular</option>
-                    <option value="2">Fixo</option>
+                    <option value="celular">Celular</option>
+                    <option value="fixo">Fixo</option>
                 </select>
                 </div>
                 <div class="mb-3">
